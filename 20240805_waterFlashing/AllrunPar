@@ -1,0 +1,8 @@
+# this code is used for the no-phase change solution
+
+
+# twoPhaseMixingCentralFoamHLLC3 | tee log.txt
+
+
+mpirun -np 25 twoPhaseMixingCentralFoamHLLC3 -parallel | tee log.txt
+#------------------------------------------------------------------------------
